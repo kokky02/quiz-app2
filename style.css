@@ -61,4 +61,6 @@ body{
      align-items: center;
 }
 
+.home-content{
+     max-width: 600px;
 }
