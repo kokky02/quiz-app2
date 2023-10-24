@@ -96,3 +96,9 @@ body{
      cursor: pointer;
      transition: .5s;
 }
+
+.home-content .start-btn:hover{
+     background: none;
+     backdrop-filter: blur(3px);
+     box-sizing: none;
+}
