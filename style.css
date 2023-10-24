@@ -153,6 +153,7 @@ body{
      font-weight: 600;
      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
      cursor: pointer;
+     transition: .5s;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1){
