@@ -109,8 +109,9 @@ body{
      left: 50%;
      transform: translate(-50%, -50%);
      width: 500px;
-     background: seagreen;
+     background: #fff;
      border-radius: 6px;
+     padding: 10px 20px;
      
 }
 
