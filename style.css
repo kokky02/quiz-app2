@@ -102,3 +102,13 @@ body{
      backdrop-filter: blur(3px);
      box-sizing: none;
 }
+
+.popup-info{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 500px;
+     background: seagreen;
+     border-radius: 6px;
+}
