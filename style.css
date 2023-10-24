@@ -37,6 +37,7 @@ body{
      color: #fff;
      font-weight: 500;
      margin-left: 35px;
+     transition: .3s;
 }
 
 .navbar a:hover{
