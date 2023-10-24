@@ -52,3 +52,13 @@ body{
      background-size: cover;
      background-position: center;
 }
+
+.home{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+}
