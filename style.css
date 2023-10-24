@@ -63,6 +63,9 @@ body{
 
 .home-content{
      max-width: 600px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
 }
 
 .home-content h1{
