@@ -165,3 +165,8 @@ body{
      background: #c40094;
      color: #fff;
 }
+
+.popup-info .btn-group .info-btn:nth-child(2):hover{
+     background: #950170;
+     border-color: #950170;
+}
