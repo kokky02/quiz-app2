@@ -112,3 +112,8 @@ body{
      background: seagreen;
      border-radius: 6px;
 }
+
+.popup-info h2{
+     font-size: 50px;
+     color: #c40094;
+}
