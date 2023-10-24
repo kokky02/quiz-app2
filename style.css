@@ -29,6 +29,7 @@ body{
      color: #fff;
      text-decoration: none;
      font-weight: 700;
+     filter: drop-shadow(0 0 5px #09001d);
 }
 
 .navbar a{
