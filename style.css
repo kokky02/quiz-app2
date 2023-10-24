@@ -98,7 +98,7 @@ body{
 }
 
 .home-content .start-btn:hover{
-     background: none;
+     background: transparent;
      backdrop-filter: blur(3px);
      box-sizing: none;
 }
@@ -153,4 +153,14 @@ body{
      font-weight: 600;
      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
      cursor: pointer;
+}
+
+.popup-info .btn-group .info-btn:nth-child(1){
+     background: transparent;
+     color: #c40094;
+}
+
+.popup-info .btn-group .info-btn:nth-child(1):hover{
+     background: #c40094;
+     color: #fff;
 }
