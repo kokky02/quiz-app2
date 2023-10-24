@@ -30,3 +30,12 @@ body{
      text-decoration: none;
      font-weight: 700;
 }
+
+.navbar a{
+     font-size: 18px;
+     text-decoration: none;
+     color: #fff;
+     font-weight: 500;
+     margin-left: 35px;
+}
+
