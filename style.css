@@ -39,3 +39,6 @@ body{
      margin-left: 35px;
 }
 
+.navbar a:hover{
+     color: #c40094;
+}
