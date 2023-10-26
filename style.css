@@ -62,8 +62,13 @@ body{
      pointer-events: none;
 }
 
-.home{
+.container{
+     display: flex;
      height: 100vh;
+     width: 200%;
+}
+
+.home{
      width: 100%;
      display: flex;
      justify-content: center;
@@ -186,4 +191,9 @@ body{
 .popup-info .btn-group .info-btn:nth-child(2):hover{
      background: #950170;
      border-color: #950170;
+}
+
+.quiz-section{
+     width: 100%;
+     background: green;
 }
