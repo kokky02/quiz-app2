@@ -295,3 +295,8 @@ body{
      font-weight: 600;
      cursor: pointer;
 }
+
+.quiz-footer .next-btn:hover{
+     background: #c40094;
+     border-color: #c40094;
+}
