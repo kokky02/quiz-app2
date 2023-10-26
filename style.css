@@ -197,6 +197,8 @@ body{
 }
 
 .quiz-section{
+     position: relative;
+     left: -50%;
      width: 100%;
      background: green;
 }
