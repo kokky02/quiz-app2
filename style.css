@@ -244,3 +244,9 @@ body{
      font-weight: 500;
 }
 
+.quiz-header .header-score{
+     background: #c40094;
+     border-radius: 3px;
+     padding: 7px;
+
+}
