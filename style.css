@@ -230,3 +230,11 @@ body{
      background: linear-gradient(45deg, transparent, #c40094, transparent);
      border-radius: 6px;
 }
+
+.quiz-box .quiz-header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 0;
+     border-bottom: 2px solid #c40094;
+}
