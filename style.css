@@ -248,5 +248,9 @@ body{
      background: #c40094;
      border-radius: 3px;
      padding: 7px;
+}
 
+.quiz-box .question-text{
+     font-size: 24px;
+     font-weight: 600;
 }
