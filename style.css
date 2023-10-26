@@ -238,3 +238,9 @@ body{
      padding: 20px 0;
      border-bottom: 2px solid #c40094;
 }
+
+.quiz-header span{
+     font-size: 18px;
+     font-weight: 500;
+}
+
