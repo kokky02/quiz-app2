@@ -9,6 +9,7 @@
 
 body{ 
      color: #fff;
+     background: #09001d;
 }
 
 .header{
@@ -22,6 +23,7 @@ body{
      justify-content: space-between;
      align-items: center;
      z-index: 100;
+     /* user-select: none; */
 }
 
 .logo{
@@ -51,6 +53,13 @@ body{
      background: url('background.jpg') no-repeat;
      background-size: cover;
      background-position: center;
+     pointer-events: auto;
+     transition: .3s ease;
+}
+
+.main.active{
+     filter: blur(9.5px);
+     pointer-events: none;
 }
 
 .home{
@@ -107,13 +116,20 @@ body{
      position: absolute;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%) scale(.9);
      width: 500px;
      background: #fff;
      border-radius: 6px;
      padding: 10px 20px;
      opacity: 0;
      pointer-events: none;
+     transition: .3s ease;
+}
+
+.popup-info.active{
+     opacity: 1;
+     pointer-events: auto;
+     transform: translate(-50%, -50%) scale(1);
 }
 
 .popup-info h2{
