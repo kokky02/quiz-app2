@@ -23,6 +23,12 @@ continueBtn.onclick = () => {
      quizBox.classList.add('active')
 
      showQuestions(0)
+
+     const nextBtn = document.querySelector('.next.btn')
+
+     nextBtn.onclick = () => {
+      questionCount++
+      showQuestions(questionCount)
 }
 
 
