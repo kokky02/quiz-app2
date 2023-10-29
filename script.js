@@ -24,6 +24,7 @@ continueBtn.onclick = () => {
 
      showQuestions(0)
      questionCounter(1)
+     headerScore()
 }
 
      let questionCount = 0
@@ -96,4 +97,9 @@ function optionSelected(answer){
 function questionCounter(index){
      const questionTotal = document.querySelector('.question-total')
      questionTotal.textContent = `${index} of ${questions.length} Questions`
+}
+
+function headerScore(){
+     const headerScoreText = document.querySelector('.header-score')
+     headerScoreText.textContent = `Score: ${userScore} / ${questions.length}`
 }
