@@ -406,6 +406,11 @@ body{
      transition: .5s;
 }
 
+.buttons button:nth-child(1):hover{
+     background: #950170;
+     border-color: #950170;
+}
+
 .buttons button:nth-child(2){
      background: transparent;
      color: #c40094;
