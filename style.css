@@ -363,9 +363,19 @@ body{
 
 .result-box .percentage-container{
      width: 300px;
-     background: #00a63d;
      display: flex;
      flex-direction: column;
      align-items: center;
      margin: 20px 0 40px;
+}
+
+.percentage-container .circular-progress{
+     position: relative;
+     width: 250px;
+     height: 250px;
+     background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, .1) 0deg);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
