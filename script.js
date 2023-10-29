@@ -40,6 +40,8 @@ continueBtn.onclick = () => {
 
                questionNumb++
                questionCounter(questionNumb)
+
+               nextBtn.classList.remove('active')
           }
           else{
                console.log('Question Completed')
