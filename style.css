@@ -296,6 +296,10 @@ body{
      border-color: #c22007;
 }
 
+.option-list .option.disabled{
+     pointer-events: none;
+}
+
 .quiz-box .quiz-footer{
      display: flex;
      justify-content: space-between;
