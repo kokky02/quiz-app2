@@ -284,6 +284,18 @@ body{
      border-color: rgba(255, 255, 255, .1);
 }
 
+.option-list .option.correct{
+     background: transparent;
+     color: #00a63d;
+     border-color: #00a63d;
+}
+
+.option-list .option.incorrect{
+     background: transparent;
+     color: #c22007;
+     border-color: #c22007;
+}
+
 .quiz-box .quiz-footer{
      display: flex;
      justify-content: space-between;
