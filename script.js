@@ -23,16 +23,20 @@ continueBtn.onclick = () => {
      quizBox.classList.add('active')
 
      showQuestions(0)
+}
 
-     const nextBtn = document.querySelector('.next.btn')
+     let questionCount = 0
+
+     const nextBtn = document.querySelector('.next-btn')
 
      nextBtn.onclick = () => {
       questionCount++
       showQuestions(questionCount)
 }
 
+const optionList = document.querySelector('.option-list')
 
-let questionCount = 0
+
 
 //getting questions and options forom array
 function showQuestions(index){
