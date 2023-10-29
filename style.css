@@ -390,3 +390,18 @@ body{
      font-weight: 600;
      margin-top: 20px;
 }
+
+.buttons button {
+     width: 130px;
+     height: 47px;
+     background: #c40094;
+     border: 2px solid #c40094;
+     outline: none;
+     border-radius: 6px;
+     font-size: 16px;
+     color: #fff;
+     font-weight: 600;
+     margin: 0 20px 20px;
+     cursor: pointer;
+     transition: .5s;
+}
