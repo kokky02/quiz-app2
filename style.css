@@ -380,6 +380,15 @@ body{
      align-items: center;
 }
 
+.percentage-container .circular-progress::before{
+     content: '';
+     position: absolute;
+     width: 210px;
+     height: 210px;
+     background: #09001d;
+     border-radius: 50%;
+}
+
 .circular-progress .progress-value{
      font-size: 45px;
      font-weight: 600;
