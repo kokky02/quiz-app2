@@ -360,3 +360,12 @@ body{
 .result-box h2{
      font-size: 52px;
 }
+
+.result-box .percentage-container{
+     width: 300px;
+     background: #00a63d;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 20px 0 40px;
+}
