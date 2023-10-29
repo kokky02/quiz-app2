@@ -21,6 +21,8 @@ continueBtn.onclick = () => {
      popupInfo.classList.remove('active')
      main.classList.remove('active') 
      quizBox.classList.add('active')
+
+     showQuestions(0)
 }
 
 
