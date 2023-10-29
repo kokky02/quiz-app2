@@ -59,7 +59,14 @@ function showQuestions(index){
                     <div class="option"><span>${questions[index].options[3]}</span></div>`
 
      optionList.innerHTML = optionTag
+
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++){
+          option[i].setAttribute('onclick', 'optionSelected(this')
+     }
 }
+
+
 
 function questionCounter(index){
      const questionTotal = document.querySelector('.question-total')
