@@ -379,3 +379,8 @@ body{
      justify-content: center;
      align-items: center;
 }
+
+.circular-progress .progress-value{
+     font-size: 45px;
+     font-weight: 600;
+}
