@@ -76,6 +76,14 @@ function optionSelected(answer){
      }
      else{
           answer.classList.add('incorrect')
+
+          //if answer incorrect, auto selected correct answer
+          for (let i = 0; i < allOptions; i++){
+               if(optionList.children[i].textContent == correctAnswer){
+                    optionList.children[i].setAttribute('class', 'option correct')
+               }
+          }
+
      }
 
      //if user has selected, disable all options
