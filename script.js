@@ -75,6 +75,7 @@ function optionSelected(answer){
 
      if(userAnswer == correctAnswer){
           answer.classList.add('correct')
+          userScore += 1
      }
      else{
           answer.classList.add('incorrect')
