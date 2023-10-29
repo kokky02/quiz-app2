@@ -30,8 +30,13 @@ continueBtn.onclick = () => {
      const nextBtn = document.querySelector('.next-btn')
 
      nextBtn.onclick = () => {
-      questionCount++
-      showQuestions(questionCount)
+          if(questionCount < questions.length - 1){
+               questionCount++
+               showQuestions(questionCount)
+          }
+          else{
+               console.log('Question Completed')
+          }
 }
 
 const optionList = document.querySelector('.option-list')
