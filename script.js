@@ -18,5 +18,5 @@ exitBtn.onclick = () => {
 continueBtn.onclick = () => {
      quizSection.classList.add('active')
      popupInfo.classList.remove('active')
-     main.classList.remove('active')
+     main.classList.remove('active') 
 }
