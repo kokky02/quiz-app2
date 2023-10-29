@@ -405,3 +405,9 @@ body{
      cursor: pointer;
      transition: .5s;
 }
+
+.buttons button:nth-child(2){
+     background: transparent;
+     color: #c40094;
+}
+
