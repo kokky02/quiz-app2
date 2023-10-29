@@ -391,6 +391,10 @@ body{
      margin-top: 20px;
 }
 
+.result-box .buttons{
+     display: flex;
+}
+
 .buttons button {
      width: 130px;
      height: 47px;
