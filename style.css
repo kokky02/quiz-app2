@@ -390,6 +390,7 @@ body{
 }
 
 .circular-progress .progress-value{
+     position: relative;
      font-size: 45px;
      font-weight: 600;
 }
