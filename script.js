@@ -62,11 +62,20 @@ function showQuestions(index){
 
      const option = document.querySelectorAll('.option')
      for (let i = 0; i < option.length; i++){
-          option[i].setAttribute('onclick', 'optionSelected(this')
+          option[i].setAttribute('onclick', 'optionSelected(this)')
      }
 }
 
-
+function optionSelected(answer){
+     let userAnswer = answer.textContent
+     let correctAnswer = questions[questionCount].answer
+     if(userAnswer == correctAnswer){
+          answer.classList.add('correct')
+     }
+     else{
+          answer.classList.add('incorrect')
+     }
+}
 
 function questionCounter(index){
      const questionTotal = document.querySelector('.question-total')
