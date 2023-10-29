@@ -325,11 +325,18 @@ body{
      color:rgba(255, 255, 255, .3);
      font-weight: 600;
      cursor: pointer;
-     /* pointer-events: none; */
+     pointer-events: none;
      transition: .5s;
 }
 
-.quiz-footer .next-btn:hover{
+.quiz-footer .next-btn.active{
+     pointer-events: auto;
      background: #c40094;
      border-color: #c40094;
+     color: #fff;
+}
+
+.quiz-footer .next-btn.active:hover{
+     background: #950170;
+     border-color: #950170;
 }
