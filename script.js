@@ -94,6 +94,7 @@ function optionSelected(answer){
      for (let i = 0; i < allOptions; i++){
           optionList.children[i].classList.add('disabled')
      }
+     nextBtn.classList.add('active')
 }
 
 function questionCounter(index){
