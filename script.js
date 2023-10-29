@@ -23,6 +23,7 @@ continueBtn.onclick = () => {
      quizBox.classList.add('active')
 
      showQuestions(0)
+     questionCounter(1)
 }
 
      let questionCount = 0
@@ -34,6 +35,9 @@ continueBtn.onclick = () => {
           if(questionCount < questions.length - 1){
                questionCount++
                showQuestions(questionCount)
+
+               questionNumb++
+               questionCounter(questionNumb)
           }
           else{
                console.log('Question Completed')
