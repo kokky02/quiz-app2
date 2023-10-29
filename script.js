@@ -28,6 +28,7 @@ continueBtn.onclick = () => {
 
      let questionCount = 0
      let questionNumb = 1
+     let userScore = 0
 
      const nextBtn = document.querySelector('.next-btn')
 
