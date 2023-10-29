@@ -355,6 +355,8 @@ body{
      display: flex;
      flex-direction: column;
      align-items: center;
+     opacity: 0;
+     pointer-events: none;
 }
 
 .result-box h2{
