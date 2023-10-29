@@ -2,7 +2,7 @@ let questions = [
      {
           numb: 1,
           question: 'Jakou hůlku měl Albus Brumbál?',
-          answer: 'A. Bezovou'
+          answer: 'A. Bezovou',
           options: [
                'A. Bezovou',
                'B. Neznámou',
@@ -13,7 +13,7 @@ let questions = [
      {
           numb: 2,
           question: 'Která z uvedených NENÍ relikvie smrti?',
-          answer: 'B. Bezedný kotlík'
+          answer: 'B. Bezedný kotlík',
           options: [
                'A. Neviditelný plášť',
                'B. Bezedný kotlík',
@@ -24,7 +24,7 @@ let questions = [
      {
           numb: 3,
           question: 'Kdo byl nejstarší?',
-          answer: 'D. Hermiona Grangerová'
+          answer: 'D. Hermiona Grangerová',
           options: [
                'A. Harry Potter',
                'B. Draco Malfoy',
@@ -35,7 +35,7 @@ let questions = [
      {
           numb: 4,
           question: 'Od koho dostal Rubeus Hagrid létající motorku?',
-          answer: 'A. Od Siriuse Blacka'
+          answer: 'A. Od Siriuse Blacka',
           options: [
                'A. Od Siriuse Blacka',
                'B. Od Albuse Brumbála',
@@ -46,7 +46,7 @@ let questions = [
      {
           numb: 5,
           question: 'Jaké je číslo trezoru Harryho Pottera?',
-          answer: 'C. 687'
+          answer: 'C. 687',
           options: [
                'A. 713',
                'B. 711',
