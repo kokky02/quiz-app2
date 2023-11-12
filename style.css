@@ -198,8 +198,7 @@ body{
 
 .quiz-section{
      position: relative;
-     /* left: -50%; */
-     left: 0;
+     left: -50%;
      width: 100%;
      background: #09001d;
      display: flex;
@@ -216,7 +215,7 @@ body{
 
 .quiz-section .quiz-box{
      position: relative;
-     width: 500px;
+     width: 500px; 
      background: transparent;
      border: 2px solid #c40094;
      border-radius: 6px;
