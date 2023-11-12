@@ -112,4 +112,5 @@ function headerScore(){
 
 function showResultBox(){
      quizBox.classList.remove('active')
+     resultBox.classList.add('active')
 }
