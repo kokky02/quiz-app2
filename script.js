@@ -45,7 +45,7 @@ continueBtn.onclick = () => {
                nextBtn.classList.remove('active')
           }
           else{
-               console.log('Question Completed')
+               showResultBox()
           }
 }
 
