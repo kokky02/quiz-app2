@@ -113,4 +113,9 @@ function headerScore(){
 function showResultBox(){
      quizBox.classList.remove('active')
      resultBox.classList.add('active')
+
+     const scoreText = document.querySelector('.score-text')
+     scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`
+
+     
 }
