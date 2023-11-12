@@ -109,3 +109,7 @@ function headerScore(){
      const headerScoreText = document.querySelector('.header-score')
      headerScoreText.textContent = `Score: ${userScore} / ${questions.length}`
 }
+
+function showResultBox(){
+     quizBox.classList.remove('active')
+}
