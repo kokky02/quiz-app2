@@ -6,6 +6,7 @@ const continueBtn = document.querySelector('.continue-btn')
 const quizSection = document.querySelector('.quiz-section')
 const quizBox = document.querySelector('.quiz-box')
 const resultBox = document.querySelector('.result-box')
+const tryAgainBtn = document.querySelector('.tryAgain-btn')
 
 startBtn.onclick = () => {
      popupInfo.classList.add('active')
