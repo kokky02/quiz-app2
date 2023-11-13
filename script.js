@@ -120,7 +120,7 @@ function showResultBox(){
      const circularProgress = document.querySelector('.circular-progress')
      const progressValue = document.querySelector('.progress-value')
 
-     let progressStartValue = 0
+     let progressStartValue = -1
      let progressEndValue = (userScore / questions.length) * 100
      let speed = 20
 
