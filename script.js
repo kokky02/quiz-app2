@@ -29,6 +29,20 @@ continueBtn.onclick = () => {
      headerScore()
 }
 
+tryAgainBtn.onclick = () => {
+     quizBox.classList.add('active')
+     nextBtn.classList.remove('active')
+     resultBox.classList.remove('active')
+
+     questionCount = 0
+     questionNumb = 1
+     userScore = 0
+     showQuestions(questionCount)
+     questionCounter(questionNumb)
+
+     headerScore()
+}
+
      let questionCount = 0
      let questionNumb = 1
      let userScore = 0
