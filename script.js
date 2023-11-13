@@ -117,5 +117,23 @@ function showResultBox(){
      const scoreText = document.querySelector('.score-text')
      scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`
 
+     const circularProgress = document.querySelector('.circular-progress')
+     const progressValue = document.querySelector('.progress-value')
+
+     let progressStartValue = 0
+     let progressEndValue = (userScore / questions.length) * 100
+     let speed = 20
+
+     let progress = setInterval(() => {
+          progressStartValue++
      
+          progressValue.textContent = `${progressStartValue}%`
+          circularProgress.style.background = `conic-gradient(#c40094 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+
+          if(progressStartValue == progressEndValue) {
+               clearInterval(progress)
+          }
+
+     }, speed)
+
 }
