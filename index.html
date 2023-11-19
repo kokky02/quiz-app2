@@ -5,27 +5,37 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
-     <title>Quiz </title>
+     <title>Quiz</title>
 </head>
 <body>
      <main class="main">
+          
           <header class="header">
                <a href="#" class="logo">Quiz.</a>
 
                <nav class="navbar">
+                    <a class="hideOnMobile" href="#">About</a>
+                    <a class="hideOnMobile active" href="#">Home</a>
+                    <a class="hideOnMobile" href="#">Services</a>
+                    <a class="hideOnMobile" href="#">Contack</a>
+                    <a class="menu-button" href="#" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+               </nav>
+
+               <nav class="navbar sidebar">
+                    <a href="#" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
                     <a href="#" class="active">Home</a>
                     <a href="#">About</a>
                     <a href="#">Services</a>
-                    <a href="#">Contack</a>
+                    <a href="#">Contack</a> 
                </nav>
           </header>
 
           <div class="container">
                <section class="quiz-section">
                     <div class="quiz-box">
-                         <h1>Codehal Quiz</h1>
+                         <h1>Harry Potter quiz</h1>
                          <div class="quiz-header">
-                              <span>Quiz Website Tutorials</span>
+                              <span>Harry Potter a Kámen Mudrců</span>
                               <span class="header-score">Score: 0 / 5</span>
                          </div>
 
@@ -71,10 +81,8 @@
 
                <section class="home">
                     <div class="home-content">
-                         <h1>Quiz Website</h1>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                              Sequi facilis, sint inventore, quibusdam neque vitae aliquid in quo 
-                              dolor magni aut eligendi ratione animi aperiam.</p>
+                         <h1>Harry Potter Quiz</h1>
+                         <p>Vítejte na stránce s kvízy na téma Harry Potter</p>
                               <button class="start-btn">Start Quiz</button>
                     </div>
                </section>
@@ -91,7 +99,8 @@
 
           <div class="btn-group">
                <button class="info-btn exit-btn">Exit Quiz</button>
-               <a href="#" class="info-btn continue-btn">Continue</a>
+               <a href="#" class="info-btn continue-btn">HP1</a>
+               <a href="#" class="info-btn continue-btn2">HP2</a>
           </div>
      </div>
 
@@ -100,5 +109,6 @@
 
      <script src="questions.js"></script>
      <script src="script.js"></script>
+     <script src="navbar.js"></script>
 </body>
 </html>
