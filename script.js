@@ -3,11 +3,13 @@ const popupInfo = document.querySelector('.popup-info')
 const exitBtn = document.querySelector('.exit-btn')
 const main = document.querySelector('.main')
 const continueBtn = document.querySelector('.continue-btn')
+const continueBtn2 = document.querySelector('.continue-btn2')
 const quizSection = document.querySelector('.quiz-section')
 const quizBox = document.querySelector('.quiz-box')
 const resultBox = document.querySelector('.result-box')
 const tryAgainBtn = document.querySelector('.tryAgain-btn')
 const goHomeBtn = document.querySelector('.goHome-btn')
+
 
 startBtn.onclick = () => {
      popupInfo.classList.add('active')
@@ -19,7 +21,9 @@ exitBtn.onclick = () => {
      main.classList.remove('active')
 }
 
+//Quiz 1
 continueBtn.onclick = () => {
+     currentQuiz = 1
      quizSection.classList.add('active')
      popupInfo.classList.remove('active')
      main.classList.remove('active') 
@@ -30,19 +34,47 @@ continueBtn.onclick = () => {
      headerScore()
 }
 
-tryAgainBtn.onclick = () => {
+//Quiz 2
+ continueBtn2.onclick = () => {
+     currentQuiz = 2 
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     main.classList.remove('active')
      quizBox.classList.add('active')
-     nextBtn.classList.remove('active')
-     resultBox.classList.remove('active')
-
-     questionCount = 0
-     questionNumb = 1
-     userScore = 0
-     showQuestions(questionCount)
-     questionCounter(questionNumb)
-
+ 
+     showQuestions2(0)
+     questionCounter(1)
      headerScore()
-}
+ }
+ 
+tryAgainBtn.onclick = () => {
+     if (currentQuiz === 1) {
+         quizBox.classList.add('active')
+         nextBtn.classList.remove('active')
+         resultBox.classList.remove('active')
+ 
+         questionCount = 0
+         questionNumb = 1
+         userScore = 0
+         showQuestions(questionCount)
+         questionCounter(questionNumb)
+ 
+         headerScore()
+     } else if (currentQuiz === 2) {
+         quizBox.classList.add('active')
+         nextBtn.classList.remove('active')
+         resultBox.classList.remove('active')
+
+         questionCount = 0
+         questionNumb = 1
+         userScore = 0
+         showQuestions2(questionCount) // Zobrazit otázky druhého kvízu
+         questionCounter(questionNumb)
+ 
+         headerScore();
+     }
+ };
+ 
 
 goHomeBtn.onclick = () => {
      quizSection.classList.remove('active')
@@ -84,6 +116,7 @@ const optionList = document.querySelector('.option-list')
 
 
 //getting questions and options forom array
+//Questions 1
 function showQuestions(index){
      const questionText = document.querySelector('.question-text')
      questionText.textContent = `${questions[index].numb}. ${questions[index].question}`
@@ -100,6 +133,24 @@ function showQuestions(index){
           option[i].setAttribute('onclick', 'optionSelected(this)')
      }
 }
+
+//Questions 2
+ function showQuestions2(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions2[index].numb}. ${questions2[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions2[index].options[0]}</span></div>
+                     <div class="option"><span>${questions2[index].options[1]}</span></div>
+                     <div class="option"><span>${questions2[index].options[2]}</span></div>
+                     <div class="option"><span>${questions2[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
 
 function optionSelected(answer){
      let userAnswer = answer.textContent
