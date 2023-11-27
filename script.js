@@ -9,10 +9,18 @@ const quizBox = document.querySelector('.quiz-box')
 const resultBox = document.querySelector('.result-box')
 const tryAgainBtn = document.querySelector('.tryAgain-btn')
 const goHomeBtn = document.querySelector('.goHome-btn')
+const quizGroup = document.querySelector('.quizz-group')
+const selectBtn = document.querySelector('.select-btn')
 
 
 startBtn.onclick = () => {
      popupInfo.classList.add('active')
+     main.classList.add('active')
+}
+
+selectBtn.onclick = () => {
+     popupInfo.classList.remove('active')
+     quizGroup.classList.add('active')
      main.classList.add('active')
 }
 
@@ -29,6 +37,8 @@ continueBtn.onclick = () => {
      main.classList.remove('active') 
      quizBox.classList.add('active')
 
+     document.getElementById('quizTitle').textContent = 'Kámen Mudrců'
+
      showQuestions(0)
      questionCounter(1)
      headerScore()
@@ -41,6 +51,8 @@ continueBtn.onclick = () => {
      popupInfo.classList.remove('active')
      main.classList.remove('active')
      quizBox.classList.add('active')
+
+     document.getElementById('quizTitle').textContent = 'Tajemná Komnata'
  
      showQuestions2(0)
      questionCounter(1)
