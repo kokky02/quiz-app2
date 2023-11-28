@@ -34,8 +34,13 @@ continueBtn.onclick = () => {
      currentQuiz = 1
      quizSection.classList.add('active')
      popupInfo.classList.remove('active')
-     main.classList.remove('active') 
+     quizGroup.classList.remove('active')
      quizBox.classList.add('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
 
      document.getElementById('quizTitle').textContent = 'Kámen Mudrců'
 
@@ -49,8 +54,12 @@ continueBtn.onclick = () => {
      currentQuiz = 2 
      quizSection.classList.add('active')
      popupInfo.classList.remove('active')
-     main.classList.remove('active')
      quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
 
      document.getElementById('quizTitle').textContent = 'Tajemná Komnata'
  
@@ -221,9 +230,9 @@ function showResultBox(){
           progressStartValue++
      
           progressValue.textContent = `${progressStartValue}%`
-          circularProgress.style.background = `conic-gradient(#c40094 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+          circularProgress.style.background = `conic-gradient(#c40094 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`
 
-          if(progressStartValue == progressEndValue) {
+          if(progressStartValue >= progressEndValue) {
                clearInterval(progress)
           }
 
