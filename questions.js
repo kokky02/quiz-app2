@@ -68,22 +68,22 @@ let questions = [
      {
           numb: 7,
           question: 'Kdo dal Harrymu neviditelný plášť?',
-          answer: 'C. Albus Brumbál',
+          answer: 'A. Albus Brumbál',
           options: [
-               'A. Minerva McGonagalá',
+               'A. Albus Brumbá',
                'B. Fred a Georg Weasley',
-               'C. Albus Brumbál',
+               'C. Minerva McGonagalá',
                'D. Severus Snape',
           ]
      },
      {
           numb: 8,
           question: 'Jaké  bylo heslo pro vstup do Nebelvírské společenské místnosti?',
-          answer: 'C. Caput Draconis',
+          answer: 'B. Caput Draconis',
           options: [
                'A. Čistá krev',
-               'B. Prasečí rypák',
-               'C. Caput Draconis',
+               'B. Caput Draconis',
+               'C. Prasečí rypák',
                'D. Fortuna Major',
           ]
      },
@@ -101,7 +101,7 @@ let questions = [
      {
           numb: 10,
           question: 'Kdo jde jako první při rozdělování do kolejí?',
-          answer: 'D. Albus Brumbál',
+          answer: 'D. Hermiona Grangerová',
           options: [
                'A. Ron Weasley',
                'B. Harry Potter',
