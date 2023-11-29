@@ -147,8 +147,7 @@ body{
      box-sizing: none;
 }
 
-.popup-info,
-.quizz-group{
+.popup-info{
      position: absolute;
      top: 50%;
      left: 50%;
@@ -157,6 +156,20 @@ body{
      background: #fff;
      border-radius: 6px;
      padding: 10px 20px;
+     opacity: 0;
+     pointer-events: none;
+     transition: .3s ease;
+}
+
+.quizz-group{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) scale(.9);
+     width: 1000px;
+     background: #fff;
+     border-radius: 6px;
+     padding: 25px 20px;
      opacity: 0;
      pointer-events: none;
      transition: .3s ease;
@@ -200,13 +213,12 @@ body{
      padding: 15px 0 7px;
 }
 
-.popup-info .btn-group .info-btn,
-.quizz-group .btn-group .info-btn{
+.popup-info .btn-group .info-btn{
      display: inline-flex;
      justify-content: center;
      align-items: center;
      width: 130px;
-     height: 45px;
+     height: 50px;
      background: #c40094;
      border: 2px solid #c40094;
      outline: none;
@@ -219,6 +231,30 @@ body{
      cursor: pointer;
      transition: .5s;
      text-align: center;
+}
+
+.quizz-group .btn-group .info-btn{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     width: 130px;
+     height: 190px;
+     background: #c40094;
+     border: 2px solid #c40094;
+     outline: none;
+     border-radius: 6px;
+     text-decoration: none;
+     font-size: 14px;
+     color: #fff;
+     font-weight: 600;
+     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+     cursor: pointer;
+     transition: .5s;
+     text-align: center;    
+     margin: 15px 0; 
+}
+.quizz-group .btn-group .info-btn:not(:first-child){
+     margin-left: 10px;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1){
@@ -239,6 +275,20 @@ body{
 .quizz-group .btn-group .info-btn:nth-child(n+1):hover{
      background: #950170;
      border-color: #950170;
+}
+
+.hide-btn{
+     text-decoration: none;
+     position: fixed;
+     top: 10px;
+     right: 20px;
+}
+
+.back-btn{
+     text-decoration: none;
+     position: fixed;
+     top: 10px;
+     left: 20px;
 }
 
 .quiz-section{
