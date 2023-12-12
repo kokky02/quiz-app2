@@ -5,10 +5,13 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="backImage.css">
      <title>Quiz</title>
 </head>
 <body>
      <main class="main">
+
+          
           
           <header class="header">
                <a href="#" class="logo">Quiz.</a>
@@ -29,11 +32,12 @@
                     <a href="#">Contack</a> 
                </nav>
           </header>
-
+          
           <div class="container">
                <section class="quiz-section">
                     <div class="quiz-box">
-                         <h1>Harry Potter quiz</h1>
+
+                         <h1>Harry Potter kvíz</h1>
                          <div class="quiz-header">
                               <span id="quizTitle">Harry Potter</span>
                               <span class="header-score">Score: 0 / 5</span>
@@ -62,13 +66,13 @@
                          </div>
                     </div>
                     <div class="result-box">
-                         <h2>Quiz Result!</h2>
+                         <h2>Výsledek kvízu!</h2>
                          <div class="percentage-container">
                               <div class="circular-progress">
                                    <span class="progress-value">0%</span>
                               </div>
 
-                              <span class="score-text">Yout Score 0 out of 5</span>
+                              <span class="score-text">Tvé skóre 0 z 10</span>
                          </div>
 
                          <div class="buttons">
@@ -80,10 +84,11 @@
                </section>
 
                <section class="home">
+
                     <div class="home-content">
                          <h1>Harry Potter Quiz</h1>
                          <p>Vítejte na stránce s kvízy na téma Harry Potter</p>
-                              <button class="start-btn">Start Quiz</button>
+                              <button class="start-btn">Spustit</button>
                     </div>
                </section>
           </div>
@@ -98,27 +103,66 @@
           <span class="info">5. Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
 
           <div class="btn-group">
-               <button class="info-btn exit-btn">Exit Quiz</button>
-               <button class="info-btn select-btn">Chose Quiz</button>
+               <button class="info-btn exit-btn">Zavřít</button>
+               <button class="info-btn select-btn">Kvízy</button>
                
              
           </div>
      </div>
 
-     <div class="quizz-group">
-          <h2>Chose your Quiz</h2>
-          <a class="hide-btn" href="#" onclick=hideQuizGroup()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
-          <a class="back-btn" href="#" onclick=goBack()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></a>
+     <div class="quiz-group">
+          <h2>Vyber si kvíz</h2>
+          <a class="hide-btn" href="#" onclick=hideQuizGroup()> <img src="cross.png" alt=""> </a>
+          <a class="back-btn" href="#" onclick=goBack()> <img src="back.png" alt=""> </a>
           <div class="btn-group">
-               <a href="#" class="info-btn continue-btn">Kámen <br> mudrců</a>
-               <a href="#" class="info-btn continue-btn2">Tajemná komnata</a>
-               <a href="#" class="info-btn continue-btn3">Vězeň z Azkabanu</a>
-               <a href="#" class="info-btn continue-btn4">Ohnivý pohár</a>
-               <a href="#" class="info-btn continue-btn5">Fénixův řád</a>
-               <a href="#" class="info-btn continue-btn6">Princ dvojí krve</a>
-               <a href="#" class="info-btn continue-btn7">Relikvie smrti část I.</a>
-               <a href="#" class="info-btn continue-btn8">Relikvie smrti část. II</a>
-               
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn">
+                         <div class="front">Kámen <br> mudrců</div>
+                         <div class="back back-img"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn2">
+                         <div class="front">Tajemná komnata</div>
+                         <div class="back back-img2"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn3">
+                         <div class="front">Vězeň z Azkabanu</div>
+                         <div class="back back-img3"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn4">
+                         <div class="front">Ohnivý <br> pohár</div>
+                         <div class="back back-img4"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn5">
+                         <div class="front">Fénixův <br> řád</div>
+                         <div class="back back-img5"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn6">
+                         <div class="front">Princ dvojí <br> krve</div>
+                         <div class="back back-img6"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn7">
+                         <div class="front">Relikvie smrti část I.</div>
+                         <div class="back back-img7"></div>
+                    </a>
+               </div>
+               <div class="rotate">
+                    <a href="#" class="info-btn continue-btn8">
+                         <div class="front">Relikvie smrti část. II</div>
+                         <div class="back back-img8"></div>
+                    </a>
+               </div>               
           </div>
                
      </div>

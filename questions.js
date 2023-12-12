@@ -70,7 +70,7 @@ let questions = [
           question: 'Kdo dal Harrymu neviditelný plášť?',
           answer: 'A. Albus Brumbál',
           options: [
-               'A. Albus Brumbá',
+               'A. Albus Brumbál',
                'B. Fred a Georg Weasley',
                'C. Minerva McGonagalá',
                'D. Severus Snape',
@@ -95,7 +95,7 @@ let questions = [
                'A. Nimbus 2000',
                'B. Kulový Blesk',
                'C. Nimbus 2001',
-               'D. Zameták',
+               'D. Zameták 7',
           ]
      },
      {

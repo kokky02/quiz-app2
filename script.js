@@ -9,7 +9,7 @@ const quizBox = document.querySelector('.quiz-box')
 const resultBox = document.querySelector('.result-box')
 const tryAgainBtn = document.querySelector('.tryAgain-btn')
 const goHomeBtn = document.querySelector('.goHome-btn')
-const quizGroup = document.querySelector('.quizz-group')
+const quizGroup = document.querySelector('.quiz-group')
 const selectBtn = document.querySelector('.select-btn')
 
 
@@ -204,12 +204,12 @@ function optionSelected(answer){
 
 function questionCounter(index){
      const questionTotal = document.querySelector('.question-total')
-     questionTotal.textContent = `${index} of ${questions.length} Questions`
+     questionTotal.textContent = `${index} z ${questions.length} otázek`
 }
 
 function headerScore(){
      const headerScoreText = document.querySelector('.header-score')
-     headerScoreText.textContent = `Score: ${userScore} / ${questions.length}`
+     headerScoreText.textContent = `Skóre: ${userScore} / ${questions.length}`
 }
 
 function showResultBox(){
@@ -217,7 +217,7 @@ function showResultBox(){
      resultBox.classList.add('active')
 
      const scoreText = document.querySelector('.score-text')
-     scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`
+     scoreText.textContent = `Tvé skóre ${userScore} z ${questions.length}`
 
      const circularProgress = document.querySelector('.circular-progress')
      const progressValue = document.querySelector('.progress-value')
@@ -230,7 +230,7 @@ function showResultBox(){
           progressStartValue++
      
           progressValue.textContent = `${progressStartValue}%`
-          circularProgress.style.background = `conic-gradient(#c40094 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`
+          circularProgress.style.background = `conic-gradient(#CDBA9A ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`
 
           if(progressStartValue >= progressEndValue) {
                clearInterval(progress)

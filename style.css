@@ -5,10 +5,11 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Poppins', sans-serif;
+     user-select: none;
 }
 
 body{ 
-     color: #fff;
+     color: #CDBA9A;
      background: #09001d;
      overflow: hidden;
 }
@@ -29,7 +30,8 @@ body{
 
 .logo{
      font-size: 32px;
-     color: #fff;
+     color: #CDBA9A;
+     text-shadow: 0 0 10px rgba(2, 2, 2, 0.744);
      text-decoration: none;
      font-weight: 700;
      filter: drop-shadow(0 0 5px #09001d);
@@ -38,7 +40,8 @@ body{
 .navbar a{
      font-size: 18px;
      text-decoration: none;
-     color: #fff;
+     color: #CDBA9A;
+     text-shadow: 0 0 10px rgb(2, 2, 2);
      font-weight: 500;
      margin-left: 35px;
      transition: .3s;
@@ -46,7 +49,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-     color: #c40094;
+     color: #50060b;
 }
 
 .sidebar{
@@ -56,7 +59,7 @@ body{
      height: 100vh;
      width: 250px;
      z-index: 999;
-     background-color: rgba(255, 255, 255, 0.2);
+     background-color: rgba(38, 38, 38, 0.2);
      backdrop-filter: blur(10px);
      box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
      display: none;
@@ -73,12 +76,12 @@ body{
 }
 
 .sidebar a:hover{
-     background-color: rgb(245, 239, 239);
+     background-color: rgba(0, 0, 0, 0.234);
 }
 
 .main{
      min-height: 100vh;
-     background: url('background.jpg') no-repeat;
+     background: url('background 2.jpg') no-repeat;
      background-size: cover;
      background-position: center;
      pointer-events: auto;
@@ -115,26 +118,30 @@ body{
 .home-content h1{
      font-size: 65px;
      font-weight: 700;
-     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+     text-shadow: 0 -11px 50px rgba(0, 0, 0, .1);
+     text-shadow: 0 0 10px rgba(2, 2, 2, 0.744);
+     color: #CDBA9A;
+     
 }
 
 .home-content p{
      font-size: 16px;
      text-align: center;
-     text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+     text-shadow: 0 0 10px rgba(2, 2, 2, 0.744);
      margin-bottom: 30px;
+     
 }
 
 .home-content .start-btn{
      width: 190px;
      height: 55px;
-     background: #c40094;
-     border: 2px solid #fff;
+     background: #50060b;
+     border: 2px solid #CDBA9A;
      outline: none;
      border-radius: 6px;
-     box-shadow: 0  0 10px #c40094;
+     box-shadow: 0  0 10px #50060b;
      font-size: 18px;
-     color: #fff;
+     color: #CDBA9A;
      letter-spacing: 1px;
      font-weight: 600;
      cursor: pointer;
@@ -153,7 +160,9 @@ body{
      left: 50%;
      transform: translate(-50%, -50%) scale(.9);
      width: 500px;
-     background: #fff;
+     background: #131313d6;    /*vymyslet lepsi barvu */
+     border: solid #CDBA9A 2px;
+     box-shadow: 0 0 119px rgba(1, 1, 1, .6);
      border-radius: 6px;
      padding: 10px 20px;
      opacity: 0;
@@ -161,22 +170,23 @@ body{
      transition: .3s ease;
 }
 
-.quizz-group{
+.quiz-group{
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%) scale(.9);
      width: 1000px;
-     background: #fff;
+     background: #131313d6;
      border-radius: 6px;
      padding: 25px 20px;
      opacity: 0;
      pointer-events: none;
      transition: .3s ease;
+     
 }
 
 .popup-info.active,
-.quizz-group.active{
+.quiz-group.active{
      opacity: 1;
      pointer-events: auto;
      transform: translate(-50%, -50%) scale(1);
@@ -184,13 +194,15 @@ body{
 
 
 .popup-info h2{
+     text-align: center;
+     align-items: center;
      font-size: 50px;
-     color: #c40094;
+     color: #50060b;
 }
 
-.quizz-group h2{
+.quiz-group h2{
      font-size: 25px;
-     color: #c40094;
+     color: #50060b;
      text-align: center;
      align-items: center;
 }
@@ -198,19 +210,22 @@ body{
 .popup-info .info{
      display: inline-block;
      font-size: 16px;
-     color: #333;
+     color: #CDBA9A;
      font-weight: 500;
      margin: 4px 0;
 }
 
 .popup-info .btn-group,
-.quizz-group .btn-group{
+.quiz-group .btn-group{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     border-top: 1px solid #999;
+     border-top: 1px solid #CDBA9A;
      margin-top: 10px;
      padding: 15px 0 7px;
+}
+.quiz-group .btn-group .info-btn{
+     position: relative;
 }
 
 .popup-info .btn-group .info-btn{
@@ -219,13 +234,13 @@ body{
      align-items: center;
      width: 130px;
      height: 50px;
-     background: #c40094;
-     border: 2px solid #c40094;
+     background: #50060b;
+     border: 2px solid #CDBA9A;
      outline: none;
      border-radius: 6px;
      text-decoration: none;
      font-size: 16px;
-     color: #fff;
+     color: #CDBA9A;
      font-weight: 600;
      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
      cursor: pointer;
@@ -233,48 +248,78 @@ body{
      text-align: center;
 }
 
-.quizz-group .btn-group .info-btn{
+.quiz-group .btn-group .info-btn{
      display: grid;
      justify-content: center;
      align-items: center;
-     width: 130px;
+     width: 110px;
      height: 190px;
-     background: #c40094;
-     border: 2px solid #c40094;
+     background: #50060b;
+     /* border: 2px solid #c40094; */
      outline: none;
      border-radius: 6px;
      text-decoration: none;
      font-size: 14px;
-     color: #fff;
+     color: #CDBA9A;
      font-weight: 600;
      box-shadow: 0 0 10px rgba(0, 0, 0, .1);
      cursor: pointer;
      transition: .5s;
      text-align: center;    
      margin: 15px 0; 
+     transition: transform 1300ms;
+     transform-style: preserve-3d;
+     position: relative;
 }
-.quizz-group .btn-group .info-btn:not(:first-child){
+
+.front{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden;
+     position: absolute;
+}
+.back{
+     width: 100%;
+     height: 100%;    
+     position: absolute;
+     background-size: cover;
+     background-position: center;
+     backface-visibility: hidden;
+     border-radius: 6px;
+     transform: rotateY(180deg);
+}
+
+.quiz-group .btn-group .info-btn:not(:first-child){
      margin-left: 10px;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1){
      background: transparent;
-     color: #c40094;
+     color: #50060b;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1):hover{
-     background: #c40094;
-     color: #fff;
+     background: #50060b;
+     color: #CDBA9A;
+     box-shadow: 0  0 10px #50060b;
 }
 
 .popup-info .btn-group .info-btn:nth-child(2):hover{
-     color: #c40094;
-     background: #fff;
+     color: #50060b;
+     background: transparent;
+     box-shadow: 0  0 10px #50060b;
 }
 
-.quizz-group .btn-group .info-btn:nth-child(n+1):hover{
-     background: #950170;
-     border-color: #950170;
+.quiz-group .btn-group .info-btn:nth-child(n+1):hover{
+     background: #3c0508;
+}
+
+.quiz-group .btn-group .rotate:hover > .info-btn{
+     transform: rotateY(180deg);
 }
 
 .hide-btn{
@@ -282,6 +327,7 @@ body{
      position: fixed;
      top: 5px;
      right: 7px;
+     color: #fff;
 }
 
 .back-btn{
@@ -312,7 +358,7 @@ body{
      position: relative;
      width: 500px; 
      background: transparent;
-     border: 2px solid #c40094;
+     border: 2px solid #50060b;
      border-radius: 6px;
      display: flex;
      flex-direction: column;
@@ -335,7 +381,7 @@ body{
 .quiz-box h1{
      font-size: 32px;
      text-align: center;
-     background: linear-gradient(45deg, transparent, #c40094, transparent);
+     background: linear-gradient(45deg, transparent, #50060b, transparent);
      border-radius: 6px;
 }
 
@@ -344,7 +390,7 @@ body{
      justify-content: space-between;
      align-items: center;
      padding: 20px 0;
-     border-bottom: 2px solid #c40094;
+     border-bottom: 2px solid #50060b;
      margin-bottom: 30px;
 }
 
@@ -354,9 +400,10 @@ body{
 }
 
 .quiz-header .header-score{
-     background: #c40094;
+     background: #50060b;
      border-radius: 3px;
      padding: 7px;
+     text-shadow: 0 0 10px rgba(2, 2, 2, 0.744);
 }
 
 .quiz-box .question-text{
@@ -401,7 +448,7 @@ body{
      display: flex;
      justify-content: space-between;
      align-items: center;    
-     border-top: 2px solid #c40094;
+     border-top: 2px solid #50060b;
      padding-top: 20px;
      margin-top: 25px;
 }
@@ -428,14 +475,17 @@ body{
 
 .quiz-footer .next-btn.active{
      pointer-events: auto;
-     background: #c40094;
-     border-color: #c40094;
-     color: #fff;
+     background: #50060b;
+     border-color: #50060b;
+     color: #CDBA9A;
+     text-shadow: 0 0 10px rgba(2, 2, 2, 0.744);
+
 }
 
 .quiz-footer .next-btn.active:hover{
-     background: #950170;
-     border-color: #950170;
+     background: #3c0508;
+     border-color: #3c0508;
+     box-shadow: rgba(205, 185, 152, .1) 0px 10px 36px 0px, rgba(205, 186, 154, .1) 0px 0px 10px 5px;
 }
 
 .quiz-section .result-box{
@@ -445,7 +495,7 @@ body{
      transform: translate(-50%, -50%) scale(.9);
      width: 500px;
      background: transparent;
-     border: 2px solid #c40094;
+     border: 2px solid #50060b;
      border-radius: 6px;
      padding: 20px;
      display: flex;
@@ -465,6 +515,7 @@ body{
 
 .result-box h2{
      font-size: 52px;
+     color: #50060b;
 }
 
 .result-box .percentage-container{
@@ -479,7 +530,7 @@ body{
      position: relative;
      width: 250px;
      height: 250px;
-     background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, .1) 0deg);
+     background: conic-gradient(#50060b 3.6deg, rgba(255, 255, 255, .1) 0deg);
      border-radius: 50%;
      display: flex;
      justify-content: center;
@@ -518,12 +569,12 @@ body{
 .buttons button {
      width: 130px;
      height: 47px;
-     background: #c40094;
-     border: 2px solid #c40094;
+     background: #50060b;
+     border: 2px solid #CDBA9A;
      outline: none;
      border-radius: 6px;
      font-size: 16px;
-     color: #fff;
+     color: #CDBA9A;
      font-weight: 600;
      margin: 0 20px 20px;
      cursor: pointer;
@@ -531,18 +582,19 @@ body{
 }
 
 .buttons button:nth-child(1):hover{
-     background: #950170;
-     border-color: #950170;
+     background: transparent;
+     border-color: #CDBA9A;
+     color: #50060b;
 }
 
 .buttons button:nth-child(2){
      background: transparent;
-     color: #c40094;
+     color: #50060b;
 }
 
 .buttons button:nth-child(2):hover{
-     background: #c40094;
-     color: #fff;
+     background: #50060b;
+     color: #CDBA9A;
 }
 
 .menu-button{
@@ -563,3 +615,34 @@ body{
           width: 100%;
      }
 }
+
+/* TEST */
+.container-footprint{
+
+     position: relative;
+ 
+     width: 100%;
+ 
+     height: 100vh;
+ 
+   }
+ 
+  
+ 
+   .footprint {
+ 
+     position: absolute;
+ 
+     width: 50px;
+ 
+     height: auto;
+ 
+     display: none;
+ 
+     pointer-events: none;
+ 
+     transform-origin: 50% 100%; /* Střed rotace na spodním okraji stopy */
+ 
+   }
+ 
+  
