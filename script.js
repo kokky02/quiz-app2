@@ -4,6 +4,12 @@ const exitBtn = document.querySelector('.exit-btn')
 const main = document.querySelector('.main')
 const continueBtn = document.querySelector('.continue-btn')
 const continueBtn2 = document.querySelector('.continue-btn2')
+const continueBtn3 = document.querySelector('.continue-btn3')
+const continueBtn4 = document.querySelector('.continue-btn4')
+const continueBtn5 = document.querySelector('.continue-btn5')
+const continueBtn6 = document.querySelector('.continue-btn6')
+const continueBtn7 = document.querySelector('.continue-btn7')
+const continueBtn8 = document.querySelector('.continue-btn8')
 const quizSection = document.querySelector('.quiz-section')
 const quizBox = document.querySelector('.quiz-box')
 const resultBox = document.querySelector('.result-box')
@@ -34,8 +40,8 @@ continueBtn.onclick = () => {
      currentQuiz = 1
      quizSection.classList.add('active')
      popupInfo.classList.remove('active')
-     quizGroup.classList.remove('active')
      quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
 
      setTimeout(() => {
           main.classList.remove('active')
@@ -68,6 +74,122 @@ continueBtn.onclick = () => {
      headerScore()
  }
  
+ //Quiz 3
+ continueBtn3.onclick = () => {
+     currentQuiz = 3 
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Vězeň z Azkabanu'
+ 
+     showQuestions3(0)
+     questionCounter(1)
+     headerScore()
+ }
+
+ //Quiz 4
+ continueBtn4.onclick = () => {
+     currentQuiz = 4
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Ohnivý pohár'
+ 
+     showQuestions4(0)
+     questionCounter(1)
+     headerScore()
+ }
+ 
+//Quiz 5
+continueBtn5.onclick = () => {
+     currentQuiz = 5
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Fénixův řád'
+ 
+     showQuestions5(0)
+     questionCounter(1)
+     headerScore()
+ }
+ 
+ //Quiz 6
+ continueBtn6.onclick = () => {
+     currentQuiz = 6
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Princ dvojí krve'
+ 
+     showQuestions6(0)
+     questionCounter(1)
+     headerScore()
+ }
+ 
+ //Quiz 7
+ continueBtn7.onclick = () => {
+     currentQuiz = 7
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Relikvie smrti part 1'
+ 
+     showQuestions7(0)
+     questionCounter(1)
+     headerScore()
+ }
+ 
+ //Quiz 8
+ continueBtn8.onclick = () => {
+     currentQuiz = 8
+     quizSection.classList.add('active')
+     popupInfo.classList.remove('active')
+     quizBox.classList.add('active')
+     quizGroup.classList.remove('active')
+
+     setTimeout(() => {
+          main.classList.remove('active')
+     }, 1000)
+
+     document.getElementById('quizTitle').textContent = 'Relikvie smrti part 2'
+ 
+     showQuestions8(0)
+     questionCounter(1)
+     headerScore()
+ }
+ 
+
+ //Try again
 tryAgainBtn.onclick = () => {
      if (currentQuiz === 1) {
          quizBox.classList.add('active')
@@ -137,6 +259,7 @@ const optionList = document.querySelector('.option-list')
 
 
 //getting questions and options forom array
+
 //Questions 1
 function showQuestions(index){
      const questionText = document.querySelector('.question-text')
@@ -172,6 +295,116 @@ function showQuestions(index){
          option[i].setAttribute('onclick', 'optionSelected(this)')
      }
  }
+
+//Questions 3
+function showQuestions3(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions3[index].numb}. ${questions3[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions3[index].options[0]}</span></div>
+                     <div class="option"><span>${questions3[index].options[1]}</span></div>
+                     <div class="option"><span>${questions3[index].options[2]}</span></div>
+                     <div class="option"><span>${questions3[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+//Questions 4
+function showQuestions4(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions4[index].numb}. ${questions4[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${question4[index].options[0]}</span></div>
+                     <div class="option"><span>${questions4[index].options[1]}</span></div>
+                     <div class="option"><span>${questions4[index].options[2]}</span></div>
+                     <div class="option"><span>${questions4[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+//Questions 5
+function showQuestions5(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions5[index].numb}. ${questions5[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions5[index].options[0]}</span></div>
+                     <div class="option"><span>${questions5[index].options[1]}</span></div>
+                     <div class="option"><span>${questions5[index].options[2]}</span></div>
+                     <div class="option"><span>${questions5[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+//Questions 6
+function showQuestions6(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions6[index].numb}. ${questions6[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions6[index].options[0]}</span></div>
+                     <div class="option"><span>${questions6[index].options[1]}</span></div>
+                     <div class="option"><span>${questions6[index].options[2]}</span></div>
+                     <div class="option"><span>${questions6[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+//Questions 7
+function showQuestions7(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions7[index].numb}. ${questions7[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions7[index].options[0]}</span></div>
+                     <div class="option"><span>${questions7[index].options[1]}</span></div>
+                     <div class="option"><span>${questions7[index].options[2]}</span></div>
+                     <div class="option"><span>${questions7[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+//Questions 8
+function showQuestions8(index) {
+     const questionText = document.querySelector('.question-text')
+     questionText.textContent = `${questions8[index].numb}. ${questions8[index].question}`
+ 
+     let optionTag = `<div class="option"><span>${questions8[index].options[0]}</span></div>
+                     <div class="option"><span>${questions8[index].options[1]}</span></div>
+                     <div class="option"><span>${questions8[index].options[2]}</span></div>
+                     <div class="option"><span>${questions8[index].options[3]}</span></div>`
+ 
+     optionList.innerHTML = optionTag
+ 
+     const option = document.querySelectorAll('.option')
+     for (let i = 0; i < option.length; i++) {
+         option[i].setAttribute('onclick', 'optionSelected(this)')
+     }
+ }
+
+
 
 function optionSelected(answer){
      let userAnswer = answer.textContent
