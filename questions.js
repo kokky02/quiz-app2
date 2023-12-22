@@ -115,13 +115,13 @@ let questions = [
 let questions2 = [
      {
           numb: 1,
-          question: 'AHOJ',
-          answer: 'A. Bezovou',
+          question: 'ahoj?',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -229,13 +229,13 @@ let questions2 = [
 let questions3 = [
      {
           numb: 1,
-          question: 'co',
-          answer: 'A. Bezovou',
+          question: 'otazka3?',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -344,12 +344,12 @@ let questions4 = [
      {
           numb: 1,
           question: 'otazka4',
-          answer: 'A. Bezovou',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -458,12 +458,12 @@ let questions5 = [
      {
           numb: 1,
           question: 'otazka5',
-          answer: 'A. Bezovou',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -572,12 +572,12 @@ let questions6 = [
      {
           numb: 1,
           question: 'otazka6',
-          answer: 'A. Bezovou',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -686,12 +686,12 @@ let questions7 = [
      {
           numb: 1,
           question: 'otazka7',
-          answer: 'A. Bezovou',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
@@ -800,12 +800,12 @@ let questions8 = [
      {
           numb: 1,
           question: 'otazka8',
-          answer: 'A. Bezovou',
+          answer: 'A. V Zobí ulici',
           options: [
-               'A. Bezovou',
-               'B. Neznámou',
-               'C. Habrovou',
-               'D. Cesmínovou'
+               'A. V Zobí ulici',
+               'B. V Soví ulici',
+               'C. V Kouzelné ulici',
+               'D. V Příčné ulici'
           ]
      },
      {
