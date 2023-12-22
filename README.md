@@ -44,5 +44,5 @@ Každý kvíz obsahuje jedinečnou sadu otázek přímo inspirovaných událostm
 
 
 
-Tento projekt je vytvořen pro fanoušky Harryho Pottera a je otevřený pro vylepšení. Přijímám nové otázky a nápady!
+💛🧡Tento projekt je vytvořen pro fanoušky Harryho Pottera a je otevřený pro vylepšení. Přijímám nové otázky a nápady!💚💙
 
