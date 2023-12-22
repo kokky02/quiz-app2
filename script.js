@@ -215,7 +215,79 @@ tryAgainBtn.onclick = () => {
          questionCounter(questionNumb)
  
          headerScore();
-     }
+     } else if (currentQuiz === 3) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions3(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      } else if (currentQuiz === 4) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions4(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      } else if (currentQuiz === 5) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions5(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      } else if (currentQuiz === 6) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions6(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      } else if (currentQuiz === 7) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions7(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      } else if (currentQuiz === 8) {
+          quizBox.classList.add('active')
+          nextBtn.classList.remove('active')
+          resultBox.classList.remove('active')
+ 
+          questionCount = 0
+          questionNumb = 1
+          userScore = 0
+          showQuestions8(questionCount) // Zobrazit otázky druhého kvízu
+          questionCounter(questionNumb)
+  
+          headerScore();
+      }
  };
  
 
@@ -319,7 +391,7 @@ function showQuestions4(index) {
      const questionText = document.querySelector('.question-text')
      questionText.textContent = `${questions4[index].numb}. ${questions4[index].question}`
  
-     let optionTag = `<div class="option"><span>${question4[index].options[0]}</span></div>
+     let optionTag = `<div class="option"><span>${questions4[index].options[0]}</span></div>
                      <div class="option"><span>${questions4[index].options[1]}</span></div>
                      <div class="option"><span>${questions4[index].options[2]}</span></div>
                      <div class="option"><span>${questions4[index].options[3]}</span></div>`
