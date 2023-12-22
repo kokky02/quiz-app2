@@ -160,7 +160,7 @@ body{
      left: 50%;
      transform: translate(-50%, -50%) scale(.9);
      width: 500px;
-     background: #131313d6;    /*vymyslet lepsi barvu */
+     background: #000000a8;    /*vymyslet lepsi barvu */
      border: solid #CDBA9A 2px;
      box-shadow: 0 0 119px rgba(1, 1, 1, .6);
      border-radius: 6px;
@@ -176,7 +176,7 @@ body{
      left: 50%;
      transform: translate(-50%, -50%) scale(.9);
      width: 1000px;
-     background: #131313d6;
+     background: #000000a8;
      border-radius: 6px;
      padding: 25px 20px;
      opacity: 0;
@@ -341,7 +341,7 @@ body{
      position: relative;
      left: -200%;
      width: 100%;
-     background: #09001d;
+     background: #090316;
      display: flex;
      justify-content: center;
      align-items: center;
