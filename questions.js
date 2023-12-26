@@ -115,112 +115,112 @@ let questions = [
 let questions2 = [
      {
           numb: 1,
-          question: 'ahoj?',
-          answer: 'A. V Zobí ulici',
+          question: 'Proč Dobby navštívil Harryho Pottera v Zobí ulici?',
+          answer: 'A. Aby ho varoval, aby nejezdil do školy',
           options: [
-               'A. V Zobí ulici',
-               'B. V Soví ulici',
-               'C. V Kouzelné ulici',
-               'D. V Příčné ulici'
+               'A. Aby ho varoval, aby nejezdil do školy',
+               'B. Aby ho pozdravil',
+               'C. Nenavštívil ho',
+               'D. Aby mu pomohl uklidit pokoj'
           ]
      },
      {
           numb: 2,
-          question: 'Která z uvedených NENÍ relikvie smrti?',
-          answer: 'B. Bezedný kotlík',
+          question: 'Jak se Harry a Ron dostali do školy?',
+          answer: 'B. Létajícím autem pana Weaslyho',
           options: [
-               'A. Neviditelný plášť',
-               'B. Bezedný kotlík',
-               'C. Kámen vskříšení',
-               'D. Bezová hůlka',
+               'A. Školním vlakem',
+               'B. Létajícím autem pana Weaslyho',
+               'C. Letaxem',
+               'D. Létající motorkou od Hagrida',
           ]
      },
      {
           numb: 3,
-          question: 'Kdo byl nejstarší?',
-          answer: 'D. Hermiona Grangerová',
+          question: 'Koho v tomto díle netvor napadl jako prvního?',
+          answer: 'D. Paní Norisovou',
           options: [
-               'A. Harry Potter',
-               'B. Draco Malfoy',
-               'C. Ron Weasley',
-               'D. Hermiona Grangerová',
+               'A. Hermionu Grangerovou',
+               'B. Justina Finch-Fletchleyho',
+               'C. Colina Creeveyho',
+               'D. Paní Norisovou',
           ]
      },
      {
           numb: 4,
-          question: 'Od koho dostal Rubeus Hagrid létající motorku?',
-          answer: 'A. Od Siriuse Blacka',
+          question: 'Jaké kouzlo chtěl použít Ron na Malfoye, když urazil Hermionu?',
+          answer: 'A. Žer slimáky',
           options: [
-               'A. Od Siriuse Blacka',
-               'B. Od Albuse Brumbála',
-               'C. Od Jamese Pottera',
-               'D. Od Arthura Weasleho',
+               'A. Žer slimáky',
+               'B. Expelliarmus',
+               'C. Mdloby na tebe',
+               'D. Krucio',
           ]
      },
      {
           numb: 5,
-          question: 'Jaké je číslo trezoru Harryho Pottera?',
-          answer: 'C. 687',
+          question: 'Kdo otevřel tajemnou komnatu?',
+          answer: 'C. Ginny Weasleyová',
           options: [
-               'A. 713',
-               'B. 711',
-               'C. 687',
-               'D. 998',
+               'A. Nevile Longbotom',
+               'B. Draco Malfoy',
+               'C. Ginny Weasleyová',
+               'D. Zlatoslav Lockhart',
           ]
      },
      {
           numb: 6,
-          question: 'Co je bezva den? 😁',
-          answer: 'C. Neděle',
+          question: 'Z čeho se dělá lektvar na uzdravení zkamenělých?',
+          answer: 'C. Z Mandragory',
           options: [
-               'A. Sobota',
-               'B. Pátek',
-               'C. Neděle',
-               'D. Pondělí',
+               'A. Z rohu jednorožce',
+               'B. Z Třaskavých skvorejšů',
+               'C. Z Mandragory',
+               'D. Z Třendavy',
           ]
      },
      {
           numb: 7,
-          question: 'Kdo dal Harrymu neviditelný plášť?',
-          answer: 'A. Albus Brumbál',
+          question: 'Jaký netvor je schovaný v tajemné komnatě?',
+          answer: 'A. Bazilišek',
           options: [
-               'A. Albus Brumbál',
-               'B. Fred a Georg Weasley',
-               'C. Minerva McGonagalá',
-               'D. Severus Snape',
+               'A. Bazilišek',
+               'B. Drak',
+               'C. Akromantule',
+               'D. Tříhlavý pes',
           ]
      },
      {
           numb: 8,
-          question: 'Jaké  bylo heslo pro vstup do Nebelvírské společenské místnosti?',
-          answer: 'B. Caput Draconis',
+          question: 'Jaký lektvar Hermiona připravovala na dámském záchodku?',
+          answer: 'B. Mnoholičný',
           options: [
-               'A. Čistá krev',
-               'B. Caput Draconis',
-               'C. Prasečí rypák',
-               'D. Fortuna Major',
+               'A. Kostirost',
+               'B. Mnoholičný lektvar',
+               'C. Veritasérum',
+               'D. Felix Felicis',
           ]
      },
      {
           numb: 9,
-          question: 'Jaké má Harry koště?',
-          answer: 'A. Nimbus 2000',
+          question: 'Kdo byl obviněn a odsouzen z prvního otevření Tajemné komnaty?',
+          answer: 'A. Rubeus Hagrid',
           options: [
-               'A. Nimbus 2000',
-               'B. Kulový Blesk',
-               'C. Nimbus 2001',
-               'D. Zameták 7',
+               'A. Rubeus Hagrid',
+               'B. Tom Riddle',
+               'C. Sirius Black',
+               'D. Lucius Malfoy',
           ]
      },
      {
           numb: 10,
-          question: 'Kdo jde jako první při rozdělování do kolejí?',
-          answer: 'D. Hermiona Grangerová',
+          question: 'Kdo Harrymu uzdravil ránu od Baziliška?',
+          answer: 'D. Fénix Fowkes',
           options: [
-               'A. Ron Weasley',
-               'B. Harry Potter',
-               'C. Draco Malfoy',
-               'D. Hermiona Grangerová',
+               'A. Tom Riddle',
+               'B. Žabák Trevor',
+               'C. Albus Brumbál',
+               'D. Fénix Fowkes',
           ]
      }
 ]
