@@ -8,8 +8,9 @@ Vítejte v našem Harry Potter kvízu! Tento repozitář obsahuje osm interaktiv
 
 1. [Popis](#popis)
 2. [Jak začít](#jak-začít)
-3. [Struktura souborů](#struktura-souborů)
-4. [O kvízech](#o-kvízech)
+3. [Odkaz na hru](#Odkaz)
+4. [Struktura souborů](#struktura-souborů)
+5. [O kvízech](#o-kvízech)
 4. [Zdroje otázek](#zdroje-otázek)
 
 
@@ -23,6 +24,9 @@ V tomto repozitáři naleznete kvízy spojené s Harry Potterem, které jsou nap
 2. Otevřete soubor `index.html` ve vašem prohlížeči.
 3. Vyberte si kvíz odpovídající konkrétnímu filmu ze série Harry Potter.
 4. Odpovídejte na otázky a vyzkoušejte, jaké skóre dokážete dosáhnout!
+
+## Odkaz
+https://kokky02.github.io/quiz-app2/
 
 ## Struktura souborů
 
@@ -42,7 +46,7 @@ Každý kvíz obsahuje jedinečnou sadu otázek přímo inspirovaných událostm
 
 
 
+Projekt je v Alfa verzi. nejsou doděláné veškeré kvízy a také není hotová responzivní verze. Zatím je optimalizovaná pouze verze pro PC. 
 
-
-💛💚Tento projekt je vytvořen pro fanoušky Harryho Pottera a je otevřený pro +-vylepšení. Přijímám nové otázky a nápady!🧡💙
+💛💚Tento projekt je vytvořen pro fanoušky Harryho Pottera a je otevřený pro vylepšení. Přijímám nové otázky a nápady!🧡💙
 
