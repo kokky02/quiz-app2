@@ -229,95 +229,95 @@ let questions2 = [
 let questions3 = [
      {
           numb: 1,
-          question: 'otazka3?',
-          answer: 'A. V Zobí ulici',
+          question: 'Jak se jmenoval průvodčí v záchraném autobusu?',
+          answer: 'C. ',
           options: [
-               'A. V Zobí ulici',
-               'B. V Soví ulici',
-               'C. V Kouzelné ulici',
-               'D. V Příčné ulici'
+               'A. Stan Kruháč',
+               'B. Ernie Bourák',
+               'C. Stan Silnička',
+               'D. Ernie Jezdec',
           ]
      },
      {
           numb: 2,
-          question: 'Která z uvedených NENÍ relikvie smrti?',
-          answer: 'B. Bezedný kotlík',
+          question: 'Co dal profesor Lupin Harrymu ve vlaku po tom, co Harry omdlel?',
+          answer: 'D. Čokoládu',
           options: [
-               'A. Neviditelný plášť',
-               'B. Bezedný kotlík',
-               'C. Kámen vskříšení',
-               'D. Bezová hůlka',
+               'A. Máslový ležak',
+               'B. Ohnivou whiskey',
+               'C. Citronovou zmrzlinu',
+               'D. Čokoládu',
           ]
      },
      {
           numb: 3,
-          question: 'Kdo byl nejstarší?',
-          answer: 'D. Hermiona Grangerová',
+          question: 'Co Ron viděl v Harryho šálku na hodině jasnovidectví?',
+          answer: 'A. Křivý kříž a slunce',
           options: [
-               'A. Harry Potter',
-               'B. Draco Malfoy',
-               'C. Ron Weasley',
-               'D. Hermiona Grangerová',
+               'A. Křivý kříž a slunce',
+               'B. Smrtonoše',
+               'C. Nic',
+               'D. Rozbitý kotlík a mrak',
           ]
      },
      {
           numb: 4,
-          question: 'Od koho dostal Rubeus Hagrid létající motorku?',
-          answer: 'A. Od Siriuse Blacka',
+          question: 'Jak se otevírá učebnice na Péči o kouzelné tvory?',
+          answer: 'C. Musí se pohladit po hřbetu',
           options: [
-               'A. Od Siriuse Blacka',
-               'B. Od Albuse Brumbála',
-               'C. Od Jamese Pottera',
-               'D. Od Arthura Weasleho',
+               'A. Dloubnutím do oka',
+               'B. Musí se jí dát pusa',
+               'C. Musí se pohladit po hřbetu',
+               'D. Musíš jí říct heslo',
           ]
      },
      {
           numb: 5,
-          question: 'Jaké je číslo trezoru Harryho Pottera?',
-          answer: 'C. 687',
+          question: 'Jaký tvor je klofan?',
+          answer: 'B. Hypogrif',
           options: [
-               'A. 713',
-               'B. 711',
-               'C. 687',
-               'D. 998',
+               'A. Kentaur',
+               'B. Hypogrif',
+               'C. Testrál',
+               'D. Kuře z bažin',
           ]
      },
      {
           numb: 6,
-          question: 'Co je bezva den? 😁',
-          answer: 'C. Neděle',
+          question: 'V co se mění Lupinův bubák',
+          answer: 'D. V úplněk',
           options: [
-               'A. Sobota',
-               'B. Pátek',
-               'C. Neděle',
-               'D. Pondělí',
+               'A. V mrak',
+               'B. V hada',
+               'C. V pavouka',
+               'D. V úplněk',
           ]
      },
      {
           numb: 7,
-          question: 'Kdo dal Harrymu neviditelný plášť?',
-          answer: 'A. Albus Brumbál',
+          question: 'Proč Sirius Black utekl z Azkabanu?',
+          answer: 'B. Aby zavraždil Petera Pettigrewa',
           options: [
-               'A. Albus Brumbál',
-               'B. Fred a Georg Weasley',
-               'C. Minerva McGonagalá',
-               'D. Severus Snape',
+               'A. Aby zavraždil Harryho Pottera',
+               'B. Aby zavraždil Petera Pettigrewa',
+               'C. Aby vyhledal Lorda Voldemorta',
+               'D. Aby se vrátil do sídla Blacků',
           ]
      },
      {
           numb: 8,
-          question: 'Jaké  bylo heslo pro vstup do Nebelvírské společenské místnosti?',
-          answer: 'B. Caput Draconis',
+          question: 'Jak se jmenoval plánek, který dostal Harry od dvojčat Weasleyových?',
+          answer: 'A. Pobertův plánek',
           options: [
-               'A. Čistá krev',
-               'B. Caput Draconis',
-               'C. Prasečí rypák',
-               'D. Fortuna Major',
+               'A. Pobertův plánek',
+               'B. Šmírácký plánek',
+               'C. Plánek Freda a George',
+               'D. Plánek tramtot',
           ]
      },
      {
           numb: 9,
-          question: 'Jaké má Harry koště?',
+          question: '??????????',
           answer: 'A. Nimbus 2000',
           options: [
                'A. Nimbus 2000',
