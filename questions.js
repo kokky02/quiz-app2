@@ -7,7 +7,7 @@ let questions = [
                'A. V Zobí ulici',
                'B. V Soví ulici',
                'C. V Kouzelné ulici',
-               'D. V Příčné ulici'
+               'D. V Příčné ulici',
           ]
      },
      {
@@ -193,7 +193,7 @@ let questions2 = [
      {
           numb: 8,
           question: 'Jaký lektvar Hermiona připravovala na dámském záchodku?',
-          answer: 'B. Mnoholičný',
+          answer: 'B. Mnoholičný lektvar',
           options: [
                'A. Kostirost',
                'B. Mnoholičný lektvar',
@@ -230,7 +230,7 @@ let questions3 = [
      {
           numb: 1,
           question: 'Jak se jmenoval průvodčí v záchraném autobusu?',
-          answer: 'C. ',
+          answer: 'C. Stan Silnička',
           options: [
                'A. Stan Kruháč',
                'B. Ernie Bourák',
@@ -268,7 +268,7 @@ let questions3 = [
                'A. Dloubnutím do oka',
                'B. Musí se jí dát pusa',
                'C. Musí se pohladit po hřbetu',
-               'D. Musíš jí říct heslo',
+               'D. Musí se jí říct heslo',
           ]
      },
      {
@@ -317,24 +317,24 @@ let questions3 = [
      },
      {
           numb: 9,
-          question: '??????????',
-          answer: 'A. Nimbus 2000',
+          question: 'Jaká byla přezdívka Remuse Lupina v partě pobertů?',
+          answer: 'C. Náměsíčník',
           options: [
-               'A. Nimbus 2000',
-               'B. Kulový Blesk',
-               'C. Nimbus 2001',
-               'D. Zameták 7',
+               'A. Tichošlápek',
+               'B. Červíček',
+               'C. Náměsíčník',
+               'D. Dvanácterák',
           ]
      },
      {
           numb: 10,
-          question: 'Kdo jde jako první při rozdělování do kolejí?',
-          answer: 'D. Hermiona Grangerová',
+          question: 'Jaký prst chybí Červíčkovi?',
+          answer: 'D. Prsteníček na levé ruce',
           options: [
-               'A. Ron Weasley',
-               'B. Harry Potter',
-               'C. Draco Malfoy',
-               'D. Hermiona Grangerová',
+               'A. Prsteníček na pravé ruce',
+               'B. Ukazováček na levé ruce',
+               'C. Ukazováček na pravé ruce',
+               'D. Prsteníček na levé ruce',
           ]
      }
 ]
