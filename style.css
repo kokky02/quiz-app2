@@ -51,7 +51,9 @@ body{
 .navbar a.active{
      color: #50060b;
 }
-
+.navbar a.active:hover{
+     border-bottom: solid 2px #CDBA9A;
+}
 .sidebar{
      position: fixed;
      top: 0;
