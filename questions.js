@@ -343,24 +343,24 @@ let questions3 = [
 let questions4 = [
      {
           numb: 1,
-          question: 'otazka4',
-          answer: 'A. V Zobí ulici',
+          question: 'Kolikáté mistrovství světa ve famfrpálu se zde odehrává?',
+          answer: 'A. 422.',
           options: [
-               'A. V Zobí ulici',
-               'B. V Soví ulici',
-               'C. V Kouzelné ulici',
-               'D. V Příčné ulici'
+               'A. 422.',
+               'B. 684.',
+               'C. 777.',
+               'D. 244.'
           ]
      },
      {
           numb: 2,
-          question: 'Která z uvedených NENÍ relikvie smrti?',
-          answer: 'B. Bezedný kotlík',
+          question: 'Jakým kouzlem vytvořil smrtijen na obloze znamení zla?',
+          answer: 'A. Morsmorde',
           options: [
-               'A. Neviditelný plášť',
-               'B. Bezedný kotlík',
-               'C. Kámen vskříšení',
-               'D. Bezová hůlka',
+               'A. Morsmorde',
+               'B. Ridikulus',
+               'C. Cruciatus',
+               'D. Mobilicorpus',
           ]
      },
      {
